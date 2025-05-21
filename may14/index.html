@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.js" method="post">
+        
+        <label for="name">enteer your name</label>
+        <input type="text" id="name" value="" placeholder="enterr your name">
+        
+        
+        <br> <br>
+        <label for="dob">enter dob</label>
+        <input type="date"  id="dob">
+        <br> <br>
+        <label for="eligble">are you eligble</label>
+        <input type="checkbox" id="eligble">
+        <br> <br>
+        <label for="hobby">hobbys:-</label>
+        dance
+        <input type="checkbox" valur="dance">
+        cricketr
+        <input type="checkbox" value="cricketr">
+        <br><br>
+        <label for="gender">select gender:-</label>
+        male
+        <input type="radio" name="gender" value="male">
+        female
+        <input type="radio" name="gender" value="female">
+        other
+        <input type="radio" name="gender" value="other">
+        <br><br>
+        <label for="msg">mesaage:-</label><br>
+        <textarea  id="msg" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="course">select cource</label>
+        <select  id="course">
+            <option value="frontend" selected>frontend</option>
+            <option value="backend">backend</option>
+            <option value="fullstack">fullstack</option>
+        </select>
+        <br><br>
+        <label for="vihicle">select vechicle</label>
+        <input type="text" id="vihicle" list="cars">
+        <datalist id="cars">
+<option value="bml"></option>
+<option value="tata"></option>
+<option value="nano"></option>
+<option value="mahindra"></option>
+
+</datalist>
+<br><br>
+<input type="submit" value="send data">
+<br><br>
+<input type="reset" value="reset">
+    </form>
+</body>
+</html>
