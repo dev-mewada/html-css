@@ -1,0 +1,25 @@
+/* univarsal selector */
+*{
+    font-style:italic;
+}
+
+h2{
+    color: aqua;
+    background-color: blue;
+}
+p{
+    color: antiquewhite ;background-color: black;
+}
+#mypara{
+    color: red;background-color: blue;
+}
+.commen{
+    color: brown;background-color: black;
+}
+/* nasted selector */
+.nasted div h3{
+     background-color: yellow;background-size: ;
+}
+.i .j .k li a {
+    color: blueviolet; background-color: black;
+}
