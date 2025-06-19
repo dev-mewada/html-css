@@ -1,0 +1,20 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar h1{
+    color: red;
+}
+.navbar ul {
+    color: red;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.navbar label{
+    color: red;
+    display: none;
+}

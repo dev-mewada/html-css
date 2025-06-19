@@ -1,0 +1,52 @@
+/* @media screen and (max-width:700px) {
+    body{
+        background-color: red;
+    }
+} */
+ /* @media screen and (min-width:400px) {
+    body{
+        background-color: blue;
+    }
+} */
+/* @media screen and (min-width:400px)and (max-width:750px) {
+    body{
+        background-color: green;
+    }
+} */
+ .navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+ }
+.navbar label{
+    display: none;
+}
+#check:checked~.navbar ul{
+    display: block;
+}
+#check{
+    display: none;
+}
+
+
+@media screen  and (max-width:650px){
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color: lightblue;
+        width: 100%;
+    }
+    .navbar ul li{
+        padding: 10px;
+    }
+}
